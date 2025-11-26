@@ -55,7 +55,7 @@
 <body>
 
 <header> 
-<img src="./logo.jpg" alt="Logo" style="height:40px; vertical-align:middle; margin-right:10px;">
+<img src="./logo.png" alt="Logo" style="height:40px; vertical-align:middle; margin-right:10px;">
 豐速車業 ｜ 在庫車輛
 <span style="float:right; font-size:0.9rem;">📞 0978-795-922 ｜ 📍 台中市豐原區中山路300號</span>
 </header>
@@ -90,7 +90,7 @@
 </div>
 
 <footer>
-📞 0978-795-922 ｜ 📍 台中市豐原區中山路300號<br>
+📞 0978-795-922 ｜ 📞 0967-249-808  ｜ 📍 台中市豐原區中山路300號<br>
 © 2025 豐速車業 ｜ Powered by 魔法師小吉
 </footer>
 
@@ -204,6 +204,7 @@ function renderBikes(bikes) {
 	info.className="bike-info";
     info.innerHTML=`
       <h3>${b.model}</h3>
+	<p><strong>價錢：</strong>${b.price}</p>
 	<p><strong>年份：</strong>${b.year}</p>
 	<p><strong>里程：</strong>${b.mileage} km</p>
 	<p><strong>排氣量：</strong>${b.displacement} cc</p>
